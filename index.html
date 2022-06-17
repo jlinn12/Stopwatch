@@ -9,8 +9,12 @@
 </head>
 <body>
     <h1 class=" grid text-3xl	font-serif p-4 justify-center">Stopwatch</h1>
-    <div id='clock' class="grid justify-items-center text-8xl font-semibold p-10">00:00</div>
-    <div class="flex justify-around justify-items-center">
+    <div class="flex justify-center ">
+        <div id='clock-minutes' class="grid justify-items-center text-8xl font-semibold p-4">00</div>
+        <div id='clock-points' class="grid justify-items-center text-8xl font-semibold p-4">:</div>
+        <div id='clock-seconds' class="grid justify-items-center text-8xl font-semibold p-4">00</div>
+    </div>
+    <div class="flex justify-around justify-items-center mt-10">
         <button id="start" class="bg-orange-500 p-5 px-16 rounded-lg hover:translate-y-4">Start</button>
         <button id="stop" class="bg-orange-500 p-5 px-16 rounded-lg hover:translate-y-4">Stop</button>
         <button id="reset" class="bg-orange-500 p-5 px-16 rounded-lg hover:translate-y-4">Reset</button>
